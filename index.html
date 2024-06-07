@@ -16,10 +16,14 @@
         text-align: center;
         color: black;
       }
-       body img{
-    margin-left:600px;
-    height: 300px;
-}
+       
+ .imagee{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5%;
+    max-width: 960px;
+    margin: 2em auto;
+ }
       ul li {
         list-style-type: none;
         margin-left: 600px;
@@ -48,7 +52,7 @@
         <a class="contact" href="/recipes/contact.html">CONTACT</a>
     </div>
     <h2>nextGenDev Recipe<br>Welcome to the food world!!</h2>
-    <img src="/recipes/food.jpeg" alt="" />
+    <img class="imagee" src="/recipes/food.jpeg" alt="" />
     <p>"I don't cook for the guide, I cook for customers.”</p>
     
     <!-- <ul>
